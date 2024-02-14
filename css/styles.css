@@ -42,9 +42,16 @@
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+   color: #404bbf;
 }
 
 .contacts {
+   font-style: normal;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -55,38 +62,45 @@
 /* =========== Hero Sections styles =========== */
 .hero {
    background: #2e2f42;
-   width: 1440px;
-   height: 600px;
+
 }
 
 .hero-text {
    font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
 }
 
 .hero-botton {
-   border-radius: 4px;
-   padding: 16px 32px;
-   width: 169px;
-   height: 56px;
+   background-color: #4D5AE5
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+}
+
+.hero-botton:hover,
+.hero-botton:focus {
+   background-color: #404BBF;
 }
 /* =========== /Hero Sections styles =========== */
 
 /* =========== Advantages Sections styles =========== */
 .advantages {
-
+   background-color: #FFFFFF
 }
 
 .advantages-title {
    font-weight: 500;
    font-size: 20px;
-   line-height: 1.2;
+   line-height: 1.11;
    letter-spacing: 0.02em;
+   color: #2e2f42;
 }
+
 
 .advantages-text {
    font-size: 16px;
@@ -108,13 +122,11 @@ color: #ffffff;
    letter-spacing: 0.02em;
    text-transform: capitalize;
    text-align: center;
+   color: #2e2f42;
 }
 
 .team-card {
-   border-radius: 0 0 4px 4px;
-   padding: 0px 0px 32px 0px;
-   width: 264px;
-   height: 380px;
+  
 }
 
 .team-employee {
@@ -123,6 +135,7 @@ color: #ffffff;
    line-height: 1.2;
    letter-spacing: 0.02em;
    text-align: center;
+   color: #2e2f42;
 }
 
 .team-position {
@@ -142,10 +155,11 @@ color: #ffffff;
 .portfolio-title {
    font-weight: 700;
    font-size: 36px;
-   line-height: 1.11111;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
    text-align: center;
+   color: #2e2f42;
 }
 
 .portfolio-list {
@@ -157,7 +171,9 @@ color: #ffffff;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   color: #2e2f42;
 }
+
 
 .portfolio-text {
    font-size: 16px;
