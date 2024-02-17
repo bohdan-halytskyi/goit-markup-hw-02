@@ -125,9 +125,6 @@ color: #ffffff;
    color: #2e2f42;
 }
 
-.team-card {
-  
-}
 
 .team-employee {
    font-weight: 500;
@@ -148,10 +145,6 @@ color: #ffffff;
 /* =========== /Team Sections styles =========== */
 
 /* =========== Portfolio Sections styles =========== */
-.portfolio {
-   
-}
-
 .portfolio-title {
    font-weight: 700;
    font-size: 36px;
@@ -161,10 +154,7 @@ color: #ffffff;
    text-align: center;
    color: #2e2f42;
 }
-
-.portfolio-list {
-
-}
+ 
 
 .portfolio-name {
    font-weight: 500;
